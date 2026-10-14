@@ -1,9 +1,13 @@
 ## CODESHACK MEMBER
 
 Name: Praveen Kumar B Hegde
+
 Sem: 3rd
+
 Section: B
+
 Branch: Information Science
+
 git username: kumara730730
 
 Week 1:

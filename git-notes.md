@@ -41,19 +41,36 @@ Purpose: These commands are to change the directory to the required repo.name to
 
 8. git add git-notes.md
 git add README.md
-git status
+
+Purpose: Stages new or modified files so that their changes can be included in the next commit. It moves changes from the working directory to the staging area; it does not create a commit by itself.
+
+9. git status
 git diff
 git log --oneline
-
 Rename-item gitnotes.md git-notes.md
 
-git branch -m main
-git branch
+Purpose: To check the variations between last commit or push with the present changes, is it committed or not.
+git log --oneline is used to check the history of all the commits made in a repo.
+Rename-item is used to rename a file already saved in a repo, doesn't change the contents but only the file name.
 
-git commit -m "message"
-git rollback
-git push -u origin main
-git remote -v
+9. git branch -m brach.name
+*Example: git branch -m main*
+Purpose: This is to switch the current working branch.
 
-git pull 
-git fetch
+10. git commit -m "message"
+Purpose: This is used to save the changes made to the files and save it locally. The files added by the git commit will only be saved by the commit.
+
+11. git rollback
+Purpose: This command is used to revert back the changes made by the git commit command.
+
+12. git push -u origin main
+Purpose: This command is used to push the commited files to the cloud or the github repo.
+
+13. git remote -v
+Purpose: Manages connections to remote repositories, such as repositories hosted on GitHub. It lets you see which online repository your local project is connected to.
+
+14. git pull 
+Purpose: Downloads changes from a remote repository and integrates them into your current local branch. By default, Git usually performs a fetch followed by a merge, although configuration can make it use rebase instead.
+
+15. git fetch
+Purpose: Downloads new commits and branch information from a remote repository without automatically merging those changes into your current branch.
