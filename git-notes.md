@@ -44,36 +44,66 @@ git add README.md
 
 Purpose: Stages new or modified files so that their changes can be included in the next commit. It moves changes from the working directory to the staging area; it does not create a commit by itself.
 
-9. git status
-git diff
-git log --oneline
-Rename-item gitnotes.md git-notes.md
+9. git status, git diff
 
 Purpose: To check the variations between last commit or push with the present changes, is it committed or not.
-git log --oneline is used to check the history of all the commits made in a repo.
-Rename-item is used to rename a file already saved in a repo, doesn't change the contents but only the file name.
-
-9. git branch -m brach.name
-*Example: git branch -m main*
-Purpose: This is to switch the current working branch.
 
 10. git commit -m "message"
+
 Purpose: This is used to save the changes made to the files and save it locally. The files added by the git commit will only be saved by the commit.
 
 11. git rollback
+
 Purpose: This command is used to revert back the changes made by the git commit command.
 
-12. git push -u origin main
+12. git push -u origin branch.name
+
 Purpose: This command is used to push the commited files to the cloud or the github repo.
 
 13. git remote -v
+
 Purpose: Manages connections to remote repositories, such as repositories hosted on GitHub. It lets you see which online repository your local project is connected to.
 
 14. git pull 
+
 Purpose: Downloads changes from a remote repository and integrates them into your current local branch. By default, Git usually performs a fetch followed by a merge, although configuration can make it use rebase instead.
 
 15. git fetch
+
 Purpose: Downloads new commits and branch information from a remote repository without automatically merging those changes into your current branch.
 
 16. git branch -m feature-branch.name
+
 Purpose: To create a feature branch and make changes to it for better organisation of the code.
+
+17. Rename-item gitnotes.md git-notes.md
+
+Purpose: Rename-item is used to rename a file already saved in a repo, doesn't change the contents but only the file name.
+
+18. git log --oneline
+
+Purpose: git log --oneline is used to check the history of all the commits made in a repo.
+
+17. git switch -c feature-branch.name
+
+Purpose: switching 
+
+18. git branch --show-current
+
+Purpose: Shows the name of the current working branch
+
+19. git switch main	
+
+Purpose: Switches to the existing main branch
+
+20. git switch feature-branch.name	
+
+Purpose: Switches to your existing feature branch
+
+21. git switch -c feature-branch.name	
+
+Purpose: Creates feature/readme and switches to it
+
+22. git branch -m new-name	
+
+Purpose: Renames your current branch
