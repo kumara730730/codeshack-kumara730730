@@ -74,3 +74,6 @@ Purpose: Downloads changes from a remote repository and integrates them into you
 
 15. git fetch
 Purpose: Downloads new commits and branch information from a remote repository without automatically merging those changes into your current branch.
+
+16. git branch -m feature-branch.name
+Purpose: To create a feature branch and make changes to it for better organisation of the code.
