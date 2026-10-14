@@ -19,3 +19,5 @@ Branching
 Commits
 Collaboration
 Useful Git commands
+
+About: Game developer mainly in godot(2D games). Learning to make 3D games. Exploring to create AI agents using python and integrating it with a vibe coded interactive website. 
